@@ -1,6 +1,9 @@
 /**
  * @param {string} s
  * @return {boolean}
+ * complexity
+ * time - O(n)
+ * space - O(1)
  */
 var isPalindrome = function(s) {
     if (!s.length) {
