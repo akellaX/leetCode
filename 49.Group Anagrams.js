@@ -1,6 +1,8 @@
 /**
  * @param {string[]} strs
  * @return {string[][]}
+ * time - O(NKlogK)
+ * space - O(NK)
  */
 var groupAnagrams = function(strs) {
     const dict = {};

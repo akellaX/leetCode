@@ -1,4 +1,5 @@
-
+// time - O(max(m,n))
+// space - O(max(m,n))
 var addTwoNumbers = function(l1, l2, carry = 0) {
     let left = 0;
     let node = null;

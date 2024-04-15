@@ -2,6 +2,8 @@
  * @param {number[]} coins
  * @param {number} amount
  * @return {number}
+ * time - O(amount * coins.length)
+ * space - O(amount)
  */
 var coinChange = function(coins, amount) {
     const resultArr = new Array(amount + 1).fill(Infinity);

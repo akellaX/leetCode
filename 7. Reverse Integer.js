@@ -1,6 +1,8 @@
 /**
  * @param {number} x
  * @return {number}
+ * time - O(n)
+ * space - O(n)
  */
 var reverse = function(x) {
     let numberStr = String(x);

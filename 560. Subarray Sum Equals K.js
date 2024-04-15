@@ -2,6 +2,8 @@
  * @param {number[]} nums
  * @param {number} k
  * @return {number}
+ * Time complexity: O(n)
+ * Space complexity: O(n)
  */
 var subarraySum = function(nums, k) {
     const hashMap = {

@@ -3,6 +3,8 @@
  * @return {number[][]}
  * Input: intervals = [[1,3],[2,6],[8,10],[15,18]]
  * [[1,4],[2,3]]
+ * time - O(nlogn)
+ * space - O(n)
  */
 var merge = function(intervals) {
     const res = [];

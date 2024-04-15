@@ -3,6 +3,8 @@
  * @return {string}
  * Input: s = "tree"
  * Output: "eert"
+ * Time complexity: O(n log n)
+ * Space complexity: O(n)
  */
 var frequencySort = function(s) {
     const dict = {};

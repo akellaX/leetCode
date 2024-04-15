@@ -1,6 +1,8 @@
 /**
  * @param {number} numRows
  * @return {number[][]}
+ * time - O(n^2)
+ * space - O(1)
  */
 var generate = function(numRows) {
     let rows = 1;

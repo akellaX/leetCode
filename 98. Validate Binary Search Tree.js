@@ -9,6 +9,8 @@
 /**
  * @param {TreeNode} root
  * @return {boolean}
+ * time - O(n)
+ * space - O(height)
  */
 var isValidBST = function(root) {
     const isValid = (node, low, high) => {

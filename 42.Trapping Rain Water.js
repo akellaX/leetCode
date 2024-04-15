@@ -1,6 +1,8 @@
 /**
  * @param {number[]} height
  * @return {number}
+ * time - O(n)
+ * space - 0(1)
  */
 var trap = function(height) {
     let ans = 0;

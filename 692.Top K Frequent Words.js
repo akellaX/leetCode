@@ -4,6 +4,8 @@
  * @return {string[]}
  * Input: words = ["i","love","leetcode","i","love","coding"], k = 2
  * Output: ["i","love"]
+ * time - O(n logn)
+ * space - O(n)
  */
 var topKFrequent = function(words, k) {
     const dict = {};

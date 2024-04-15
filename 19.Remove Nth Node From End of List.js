@@ -9,6 +9,8 @@
  * @param {ListNode} head
  * @param {number} n
  * @return {ListNode}
+ * time - O(n)
+ * space - O(1)
  */
 var removeNthFromEnd = function(head, n) {
     const dummy = {val: 0, next: head};

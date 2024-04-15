@@ -8,6 +8,8 @@
 /**
  * @param {ListNode} head
  * @return {ListNode}
+ * time - O(n)
+ * space - O(n)
  */
 var reverseList = function (head) {
     if(!head || !head.next) {

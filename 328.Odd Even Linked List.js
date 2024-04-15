@@ -8,6 +8,9 @@
 /**
  * @param {ListNode} head
  * @return {ListNode}
+ *
+ * Time complexity: O(n)
+ * Space complexity: O(1)
  */
 var oddEvenList = function(head) {
     if (!head?.next) {

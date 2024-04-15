@@ -9,6 +9,8 @@
  * @param {ListNode} head
  * @param {number} val
  * @return {ListNode}
+ * time - O(n)
+ * space - O(1)
  */
 var removeElements = function(head, val) {
     const newHead = {

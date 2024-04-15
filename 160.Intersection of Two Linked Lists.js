@@ -10,6 +10,8 @@
  * @param {ListNode} headA
  * @param {ListNode} headB
  * @return {ListNode}
+ * time - O (n + m)
+ * space - O(1)
  */
 var getIntersectionNode = function(headA, headB) {
     let pA = headA;

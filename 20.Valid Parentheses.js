@@ -1,6 +1,8 @@
 /**
  * @param {string} s
  * @return {boolean}
+ * time - O(n)
+ * space - O(n)
  */
 var isValid = function(s) {
     const closeBrackets = {

@@ -9,6 +9,8 @@
 /**
  * @param {ListNode} head
  * @return {boolean}
+ * time - O(n)
+ * space - O(1)
  */
 var hasCycle = function(firstPointer, secondPointer) {
     let first = firstPointer;

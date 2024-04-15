@@ -20,6 +20,8 @@
  *
  * @param {character[][]} grid
  * @return {number}
+ * time - O(m*n)
+ * space - O(m*n)
  */
 var numIslands = function (grid) {
     const visitedArr = Array(grid.length).fill().map(() => Array(grid[0].length).fill(0));

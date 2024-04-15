@@ -1,3 +1,6 @@
+// time - O(n)
+// space - O(min(n,k)))
+
 var lengthOfLongestSubstring = function (str) {
     if (!str.length) {
         return 0;

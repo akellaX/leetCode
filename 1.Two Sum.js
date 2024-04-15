@@ -2,6 +2,8 @@
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
+ * time - O(n)
+ * space - O(n)
  */
 var twoSum = function(nums, target) {
     const dict = {};

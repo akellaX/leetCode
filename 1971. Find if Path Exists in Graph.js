@@ -4,6 +4,8 @@
  * @param {number} source
  * @param {number} destination
  * @return {boolean}
+ * Time complexity: O(n + m), where n is the number of nodes and m is the number of edges in the graph.
+ * Space complexity: O(n + m), where n is the number of nodes and m is the number of edges in the graph.
  */
 var validPath = function(n, edges, source, destination) {
     const adjacencyList = new Array(n).fill().map(() => []);
